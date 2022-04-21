@@ -1,0 +1,49 @@
+body {
+margin: 0;
+background-color:bisque;
+}
+
+ul {
+  list-style-type:none;
+}
+
+.description {
+color: rgb(14, 8, 8);
+font-weight: bold;
+text-align: center;
+font-size: larger;
+}
+
+.manager-persona img.persona {
+object-fit: cover;
+height: 500px;
+width: 200px;
+border-radius: 3%;
+}
+
+.manager-persona img.persona {
+  object-fit: cover;
+  height: 500px;
+  width: 300px;
+  }
+
+
+
+
+.boss {
+  display: flex;
+    margin: 0;
+justify-content: center;
+
+
+}
+
+.subordinate {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  column-gap: 10px;
+  row-gap: 35px;
+  margin: 0;
+  padding: 15px;
+  grid-auto-flow: dense;
+justify-content: space-between;}
